@@ -14,7 +14,7 @@ USE BBS;
 
 ### user 테이블 만들기
 ```SQL
-CREATE TABLE IF NOT EXISTS USER (
+CREATE TABLE IF NOT EXISTS user (
   userID VARCHAR(20),
   userPassword VARCHAR(20),
   userName VARCHAR(20),
